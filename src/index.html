@@ -21,7 +21,7 @@
                 <td>Age</td>
             </tr>
         </thead>
-        <tbody data-sink>
+        <tbody id="tableBody">
             <tr>
                 <td></td>
                 <td></td>
@@ -51,12 +51,12 @@
     </table>
 
     <div class="btn-group">
-        <button data-prevbtn>Previous</button>
-        <button data-nextbtn>Next</button>
-        <label data-pageview></label>
+        <button id='prevBtn' >Previous</button>
+        <button id='nextBtn' >Next</button>
+        <label  id= 'pageView' ></label>
     </div>
 
-    <script type="module" src="app.ts"></script>
+    <script type="module" src="app.js" defer></script>
 </body>
 
 </html>
